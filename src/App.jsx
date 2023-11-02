@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export const App = () => {
   const [incompleteTodos, setIncompleteTodos] = useState(["aaaa", "bbbb"]);
-  const [completeTodos, setCompleteTodos] = useState(["cccc"]);
+  const [completeTodos, setCompleteTodos] = useState(["ccc"]);
   return (
     <>
       <div className="input-area">
