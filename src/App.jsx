@@ -3,7 +3,7 @@ import "./App.css";
 import { useState } from "react";
 
 export const App = () => {
-  const [incompleteTodos, setIncompleteTodos] = useState(["aaa", "bbbb"]);
+  const [incompleteTodos, setIncompleteTodos] = useState(["aaa", "bbb"]);
   const [completeTodos, setCompleteTodos] = useState(["ccc"]);
   return (
     <>
